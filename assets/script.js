@@ -1,0 +1,1 @@
+const s=document.querySelector('#site-search');if(s){s.addEventListener('input',e=>{const q=e.target.value.toLowerCase();document.querySelectorAll('[data-search]').forEach(x=>x.style.display=x.dataset.search.toLowerCase().includes(q)?'':'none')})}document.querySelectorAll('[data-year]').forEach(x=>x.textContent=new Date().getFullYear());

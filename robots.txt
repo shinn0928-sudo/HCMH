@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shinn0928-sudo.github.io/HCMH/sitemap.xml
